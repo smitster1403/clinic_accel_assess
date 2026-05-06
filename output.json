@@ -15,11 +15,6 @@
         "source": "EMR",
         "role": "J"
       },
-      "Revenue Collected (4 wk avg)": {
-        "value": 1.00441053,
-        "source": "Ratio",
-        "role": "J"
-      },
       "AR > 90 days": {
         "value": 0,
         "source": "EMR",
@@ -44,32 +39,10 @@
         "source": "EMR",
         "role": "J"
       },
-      "Ax 4 Week Avg": {
-        "value": 50.66666667,
-        "source": "GS",
-        "role": "J"
-      },
       "Google Reviews": {
         "value": 1227,
         "source": "Google",
         "role": "J"
-      }
-    },
-    "Caseload": {
-      "# of Rx (Clinic Wide)": {
-        "value": 377,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Cancellation %": {
-        "value": 0.1707317073,
-        "source": "EMR",
-        "role": "J"
-      }
-    },
-    "Other": {
-      "Clinic PVA": {
-        "value": 7.440789474
       }
     },
     "Treatment Plan": {
@@ -146,33 +119,15 @@
         "source": "NAR",
         "role": "J"
       },
-      "NAR % Collected at Ax": {
-        "value": 0.9285714286,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "100% Target"
-      },
       "Average  Prescribed": {
         "value": 2.87,
         "source": "NAR",
         "role": "J"
       },
-      "Booked:Prescribed %  (Total)": {
-        "value": 0.5357142857,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "Target = 75%"
-      },
       "# of Tx Plan Given": {
         "value": 20,
         "source": "NAR",
         "role": "J"
-      },
-      "% Tx Plan Used": {
-        "value": 0.4761904762,
-        "source": "NAR",
-        "role": "J",
-        "target_value": "Target = 80%"
       }
     }
   },
@@ -212,11 +167,6 @@
         "source": "EMR",
         "role": "J"
       },
-      "Revenue Collected (4 wk avg)": {
-        "value": 0.9083875359,
-        "source": "Ratio",
-        "role": "J"
-      },
       "AR > 90 days": {
         "value": 182,
         "source": "EMR",
@@ -239,11 +189,6 @@
       "Total Ax  - All Services": {
         "value": 54,
         "source": "EMR",
-        "role": "J"
-      },
-      "Ax 4 Week Avg": {
-        "value": 55,
-        "source": "GS",
         "role": "J"
       },
       "FB Reviews": {
@@ -279,115 +224,6 @@
         "target_value": "Target = 1"
       }
     },
-    "Caseload": {
-      "# of Rx (Clinic Wide)": {
-        "value": 377,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Cancellation %": {
-        "value": 0.1149897331,
-        "source": "EMR",
-        "role": "J"
-      },
-      "# of Fall Offs (Total)": {
-        "value": 113,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Total Available Hours  (Total)": {
-        "value": 290.25,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Total Available Hours  (PT only)": {
-        "value": 172.5,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Total BOOKED hours": {
-        "value": 166.75,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Arrived appts": {
-        "value": 382,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Utilization (With Kines)": {
-        "value": 0.5745047373,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "Target = 60%"
-      },
-      "Utilization (Without Kines)": {
-        "value": 0.9666666667,
-        "source": "Formula",
-        "role": "J"
-      },
-      "RMT Hours Available": {
-        "value": 3.75,
-        "source": "EMR",
-        "role": "J",
-        "target_value": "Total Available = 32"
-      },
-      "RMT BOOKED hours": {
-        "value": 4,
-        "source": "EMR",
-        "role": "J"
-      },
-      "RMT \u2014 Utilization": {
-        "value": 1.066666667,
-        "source": "Formula",
-        "role": "J"
-      },
-      "Chiro Hours Available": {
-        "value": 28.25,
-        "source": "EMR",
-        "role": "J",
-        "target_value": "Total Available = 34"
-      },
-      "Chiro BOOKED hours": {
-        "value": 25.25,
-        "source": "EMR",
-        "role": "J"
-      },
-      "CHIRO \u2014 Utilization": {
-        "value": 0.8938053097,
-        "source": "Formula",
-        "role": "J"
-      }
-    },
-    "Other": {
-      "Clinic PVA": {
-        "value": 6.854545455
-      },
-      "PT TP Given": {
-        "value": 30
-      },
-      "PT \u2014 TP Utilization": {
-        "value": 0.6382978723
-      },
-      "RMT TP Given": {
-        "value": 0
-      },
-      "RMT \u2014 TP Utilization": {
-        "value": 0
-      },
-      "CHIRO TP Given": {
-        "value": 0
-      },
-      "CHIRO \u2014 TP Utilization": {
-        "value": 0
-      },
-      "True PVA Average": {
-        "value": 6.522522523
-      },
-      "Pelvic Health \u2014 Utilization": {
-        "value": 0.8449922379
-      }
-    },
     "Treatment Plan": {
       "Submitted": {
         "value": 669,
@@ -415,6 +251,55 @@
       },
       "Cancelled Ax Online %": {
         "value": 0,
+        "source": "EMR",
+        "role": "J"
+      }
+    },
+    "Caseload": {
+      "# of Fall Offs (Total)": {
+        "value": 113,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Total Available Hours  (Total)": {
+        "value": 290.25,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Total Available Hours  (PT only)": {
+        "value": 172.5,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Total BOOKED hours": {
+        "value": 166.75,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Arrived appts": {
+        "value": 382,
+        "source": "EMR",
+        "role": "J"
+      },
+      "RMT Hours Available": {
+        "value": 3.75,
+        "source": "EMR",
+        "role": "J",
+        "target_value": "Total Available = 32"
+      },
+      "RMT BOOKED hours": {
+        "value": 4,
+        "source": "EMR",
+        "role": "J"
+      },
+      "Chiro Hours Available": {
+        "value": 28.25,
+        "source": "EMR",
+        "role": "J",
+        "target_value": "Total Available = 34"
+      },
+      "Chiro BOOKED hours": {
+        "value": 25.25,
         "source": "EMR",
         "role": "J"
       }
@@ -462,97 +347,20 @@
         "source": "NAR",
         "role": "J"
       },
-      "NAR % Collected at Ax": {
-        "value": 1.037037037,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "100% Target"
-      },
       "Average  Prescribed": {
         "value": 3.26,
         "source": "NAR",
         "role": "J"
       },
-      "Booked:Prescribed %  (Total)": {
-        "value": 0.5433526012,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "Target = 75%"
-      },
       "# of Tx Plan Given": {
         "value": 30,
         "source": "NAR",
-        "role": "J"
-      },
-      "% Tx Plan Used": {
-        "value": 0.5555555556,
-        "source": "NAR",
-        "role": "J",
-        "target_value": "Target = 80%"
-      }
-    },
-    "Commitment": {
-      "PT Tx": {
-        "value": 319,
-        "source": "EMR",
-        "role": "J",
-        "target_value": 426
-      },
-      "PT \u2014 PVA  (4 wk avg)": {
-        "value": 6.434782609,
-        "source": "Formula",
-        "role": "J",
-        "target_value": 213
-      },
-      "RMT  Tx": {
-        "value": 2,
-        "source": "EMR",
-        "role": "J"
-      },
-      "RMT \u2014 PVA  (4 wk avg)": {
-        "value": 2.333333333,
-        "source": "Formula",
-        "role": "J"
-      },
-      "RMT Arrived slots": {
-        "value": 3,
-        "source": "EMR",
-        "role": "J"
-      },
-      "CHIRO Tx": {
-        "value": 48,
-        "source": "EMR",
-        "role": "J"
-      },
-      "CHIRO \u2014 PVA  (4 wk avg)": {
-        "value": 10.2,
-        "source": "Formula",
-        "role": "J"
-      },
-      "CHIRO Arrived slots": {
-        "value": 55,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Pelvic Health Tx": {
-        "value": 17,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Pelvic Health \u2014 PVA  (4 wk avg)": {
-        "value": 1.5,
-        "source": "Formula",
         "role": "J"
       }
     },
     "AHS": {
       "PT AHS Ax": {
         "value": 10,
-        "source": "EMR",
-        "role": "J"
-      },
-      "% of Total Ax (AHS)": {
-        "value": 0.2127659574,
         "source": "EMR",
         "role": "J"
       },
@@ -568,6 +376,45 @@
       },
       "PT AHS Tx (Hip&Knee Class)": {
         "value": 5,
+        "source": "EMR",
+        "role": "J"
+      }
+    },
+    "Other": {
+      "PT TP Given": {
+        "value": 30
+      },
+      "RMT TP Given": {
+        "value": 0
+      },
+      "RMT \u2014 TP Utilization": {
+        "value": 0
+      },
+      "CHIRO TP Given": {
+        "value": 0
+      },
+      "CHIRO \u2014 TP Utilization": {
+        "value": 0
+      }
+    },
+    "Commitment": {
+      "RMT  Tx": {
+        "value": 2,
+        "source": "EMR",
+        "role": "J"
+      },
+      "RMT Arrived slots": {
+        "value": 3,
+        "source": "EMR",
+        "role": "J"
+      },
+      "CHIRO Arrived slots": {
+        "value": 55,
+        "source": "EMR",
+        "role": "J"
+      },
+      "Pelvic Health Tx": {
+        "value": 17,
         "source": "EMR",
         "role": "J"
       }
@@ -609,11 +456,6 @@
         "source": "EMR",
         "role": "J"
       },
-      "Revenue Collected (4 wk avg)": {
-        "value": 1.022101583,
-        "source": "Ratio",
-        "role": "J"
-      },
       "AR > 90 days": {
         "value": 60,
         "source": "EMR",
@@ -636,11 +478,6 @@
       "Total Ax  - All Services": {
         "value": 56,
         "source": "EMR",
-        "role": "J"
-      },
-      "Ax 4 Week Avg": {
-        "value": 56,
-        "source": "GS",
         "role": "J"
       },
       "FB Reviews": {
@@ -676,115 +513,6 @@
         "target_value": "Target = 1"
       }
     },
-    "Caseload": {
-      "# of Rx (Clinic Wide)": {
-        "value": 340,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Cancellation %": {
-        "value": 0.1236203091,
-        "source": "EMR",
-        "role": "J"
-      },
-      "# of Fall Offs (Total)": {
-        "value": 103,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Total Available Hours  (Total)": {
-        "value": 273.5,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Total Available Hours  (PT only)": {
-        "value": 139.25,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Total BOOKED hours": {
-        "value": 138,
-        "source": "EMR",
-        "role": "J"
-      },
-      "PT Arrived appts": {
-        "value": 329,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Utilization (With Kines)": {
-        "value": 0.5045703839,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "Target = 60%"
-      },
-      "Utilization (Without Kines)": {
-        "value": 0.9910233393,
-        "source": "Formula",
-        "role": "J"
-      },
-      "RMT Hours Available": {
-        "value": 8,
-        "source": "EMR",
-        "role": "J",
-        "target_value": "Total Available = 32"
-      },
-      "RMT BOOKED hours": {
-        "value": 8.75,
-        "source": "EMR",
-        "role": "J"
-      },
-      "RMT \u2014 Utilization": {
-        "value": 1.09375,
-        "source": "Formula",
-        "role": "J"
-      },
-      "Chiro Hours Available": {
-        "value": 35.25,
-        "source": "EMR",
-        "role": "J",
-        "target_value": "Total Available = 34"
-      },
-      "Chiro BOOKED hours": {
-        "value": 30.75,
-        "source": "EMR",
-        "role": "J"
-      },
-      "CHIRO \u2014 Utilization": {
-        "value": 0.8723404255,
-        "source": "Formula",
-        "role": "J"
-      }
-    },
-    "Other": {
-      "Clinic PVA": {
-        "value": 6.071428571
-      },
-      "PT TP Given": {
-        "value": 38
-      },
-      "PT \u2014 TP Utilization": {
-        "value": 0.8444444444
-      },
-      "RMT TP Given": {
-        "value": 0
-      },
-      "RMT \u2014 TP Utilization": {
-        "value": 0
-      },
-      "CHIRO TP Given": {
-        "value": 0
-      },
-      "CHIRO \u2014 TP Utilization": {
-        "value": 0
-      },
-      "True PVA Average": {
-        "value": 5.929824561
-      },
-      "Pelvic Health \u2014 Utilization": {
-        "value": 0.8235536031
-      }
-    },
     "Treatment Plan": {
       "Submitted": {
         "value": 599,
@@ -812,6 +540,55 @@
       },
       "Cancelled Ax Online %": {
         "value": 0,
+        "source": "EMR",
+        "role": "J"
+      }
+    },
+    "Caseload": {
+      "# of Fall Offs (Total)": {
+        "value": 103,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Total Available Hours  (Total)": {
+        "value": 273.5,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Total Available Hours  (PT only)": {
+        "value": 139.25,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Total BOOKED hours": {
+        "value": 138,
+        "source": "EMR",
+        "role": "J"
+      },
+      "PT Arrived appts": {
+        "value": 329,
+        "source": "EMR",
+        "role": "J"
+      },
+      "RMT Hours Available": {
+        "value": 8,
+        "source": "EMR",
+        "role": "J",
+        "target_value": "Total Available = 32"
+      },
+      "RMT BOOKED hours": {
+        "value": 8.75,
+        "source": "EMR",
+        "role": "J"
+      },
+      "Chiro Hours Available": {
+        "value": 35.25,
+        "source": "EMR",
+        "role": "J",
+        "target_value": "Total Available = 34"
+      },
+      "Chiro BOOKED hours": {
+        "value": 30.75,
         "source": "EMR",
         "role": "J"
       }
@@ -859,92 +636,20 @@
         "source": "NAR",
         "role": "J"
       },
-      "NAR % Collected at Ax": {
-        "value": 1,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "100% Target"
-      },
       "Average  Prescribed": {
         "value": 3.35,
         "source": "NAR",
         "role": "J"
       },
-      "Booked:Prescribed %  (Total)": {
-        "value": 0.5303867403,
-        "source": "Formula",
-        "role": "J",
-        "target_value": "Target = 75%"
-      },
       "# of Tx Plan Given": {
         "value": 38,
         "source": "NAR",
-        "role": "J"
-      },
-      "% Tx Plan Used": {
-        "value": 0.6785714286,
-        "source": "NAR",
-        "role": "J",
-        "target_value": "Target = 80%"
-      }
-    },
-    "Commitment": {
-      "PT Tx": {
-        "value": 273,
-        "source": "EMR",
-        "role": "J",
-        "target_value": 426
-      },
-      "PT \u2014 PVA  (4 wk avg)": {
-        "value": 6.066666667,
-        "source": "Formula",
-        "role": "J",
-        "target_value": 213
-      },
-      "RMT  Tx": {
-        "value": 5,
-        "source": "EMR",
-        "role": "J"
-      },
-      "RMT \u2014 PVA  (4 wk avg)": {
-        "value": 2.5,
-        "source": "Formula",
-        "role": "J"
-      },
-      "RMT Arrived slots": {
-        "value": 7,
-        "source": "EMR",
-        "role": "J"
-      },
-      "CHIRO Tx": {
-        "value": 54,
-        "source": "EMR",
-        "role": "J"
-      },
-      "CHIRO \u2014 PVA  (4 wk avg)": {
-        "value": 9,
-        "source": "Formula",
-        "role": "J"
-      },
-      "CHIRO Arrived slots": {
-        "value": 62,
-        "source": "EMR",
-        "role": "J"
-      },
-      "Pelvic Health Tx": {
-        "value": 6,
-        "source": "EMR",
         "role": "J"
       }
     },
     "AHS": {
       "PT AHS Ax": {
         "value": 11,
-        "source": "EMR",
-        "role": "J"
-      },
-      "% of Total Ax (AHS)": {
-        "value": 0.2444444444,
         "source": "EMR",
         "role": "J"
       },
@@ -959,6 +664,45 @@
         "role": "J"
       },
       "PT AHS Tx (Hip&Knee Class)": {
+        "value": 6,
+        "source": "EMR",
+        "role": "J"
+      }
+    },
+    "Other": {
+      "PT TP Given": {
+        "value": 38
+      },
+      "RMT TP Given": {
+        "value": 0
+      },
+      "RMT \u2014 TP Utilization": {
+        "value": 0
+      },
+      "CHIRO TP Given": {
+        "value": 0
+      },
+      "CHIRO \u2014 TP Utilization": {
+        "value": 0
+      }
+    },
+    "Commitment": {
+      "RMT  Tx": {
+        "value": 5,
+        "source": "EMR",
+        "role": "J"
+      },
+      "RMT Arrived slots": {
+        "value": 7,
+        "source": "EMR",
+        "role": "J"
+      },
+      "CHIRO Arrived slots": {
+        "value": 62,
+        "source": "EMR",
+        "role": "J"
+      },
+      "Pelvic Health Tx": {
         "value": 6,
         "source": "EMR",
         "role": "J"
